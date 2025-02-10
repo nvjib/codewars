@@ -15,7 +15,7 @@ function sumMul(n, m){
         sum += i
     }
 
-    return  sum
+    return sum
  }
 
 console.log(sumMul(0, 0))
