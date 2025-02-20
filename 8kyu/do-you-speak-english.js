@@ -8,4 +8,4 @@
 
 // Solution
 const spEng = sentence => sentence.toLowerCase().includes("english")
-console.log(spEng("eNglisH"))
+console.log(spEng("eNglIsH"))
