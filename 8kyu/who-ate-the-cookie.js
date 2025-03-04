@@ -19,5 +19,5 @@ function cookie(x){
     }
   }
 
-console.log(cookie(2))
+console.log(cookie("goat"))
 
