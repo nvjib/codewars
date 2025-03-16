@@ -2,4 +2,4 @@
 
 // Solution
 const solution = (str, ending) => str.endsWith(ending)
-console.log(solution)
+console.log()
