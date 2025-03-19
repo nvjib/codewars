@@ -15,4 +15,4 @@ function reduce(fraction) {
     return [a / divisor, b / divisor];
 }
 
-console.log(reduce([45, 120]))
+console.log(reduce([45, 130]))
