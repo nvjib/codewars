@@ -41,5 +41,5 @@ function tacofy(word) {
     return taco;
 }
 
-console.log(tacofy("tftyftu"))
+console.log(tacofy("tftdfdyftu"))
 
