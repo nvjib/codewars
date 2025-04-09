@@ -24,5 +24,5 @@ function solve(arr) {
     return newArr;
   }
   
-console.log(solve([15, 11, 10, 7, 19]));  // [15, 7, 12, 10, 11]
+console.log(solve([15, 11, 10, 7, 20]));  // [15, 7, 12, 10, 11]
   
