@@ -13,19 +13,18 @@
 // Floor both values before returning.
 
 // Solution
-function datingRange(age){
-    let min, max
+function datingRange(age) {
+  let min, max;
 
-    if (age <= 14) {
-        min = age - (0.10 * age)
-        max = age + (0.10 * age)
-    } else {
-        min = (age / 2) + 7
-        max = 2 * (age - 7)
-    }
-
-    return `${Math.floor(min)}-${Math.floor(max)}`
-
+  if (age <= 14) {
+    min = age - 0.1 * age;
+    max = age + 0.1 * age;
+  } else {
+    min = age / 2 + 7;
+    max = 2 * (age - 7);
   }
 
-console.log(datingRange(40))
+  return `${Math.floor(min)}-${Math.floor(max)}`;
+}
+
+console.log(datingRange(40));
