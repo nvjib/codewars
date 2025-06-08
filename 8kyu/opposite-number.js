@@ -2,4 +2,4 @@
 
 // Solution
 const opposite = number => -number
-console.log(opposite(-29))
+console.log(opposite(-30))
